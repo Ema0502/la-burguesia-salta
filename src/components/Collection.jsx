@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { whatsapp, facebook, instagram } from "../assets";
+import { whatsapp, facebook, instagram, pinmaps } from "../assets";
 
 const ProjectCard = ({
   name,
@@ -107,6 +107,17 @@ const Collection = () => {
                 className="w-9 h-9 object-contain"
               />
               <p>@laburguesiasalta</p>
+            </a>
+          </div>
+
+          <div className="flex justify-center w-full">
+            <a href="https://maps.app.goo.gl/smpBe3cU2xz6TkUA8" className="flex items-center gap-2">
+              <img
+                src={pinmaps}
+                alt="maps"
+                className="w-9 h-9 object-contain"
+              />
+              <p>Map: Arenales 380</p>
             </a>
           </div>
         </div>

@@ -4,6 +4,8 @@ import close from "./close.svg";
 import whatsapp from "./whatsapp.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
+import pinmaps from "./pinmaps.svg";
+
 
 
 export {
@@ -12,5 +14,6 @@ export {
   close,
   whatsapp,
   facebook,
-  instagram
+  instagram,
+  pinmaps
 };
