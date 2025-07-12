@@ -12,7 +12,7 @@ const Footer = () => {
           alt="Logo..."
         />
         <span className="text-sm md:text-base text-gray-700">
-          Apasionados por el sabor real, llevamos cada hamburguesa al siguiente nivel con ingredientes frescos, recetas irresistibles y un toque de fuego a la parrilla. ¡Descubre el placer de comer bien, sin complicaciones!
+          Apasionados por el sabor real, llevamos cada hamburguesa al siguiente nivel con ingredientes frescos y recetas irresistibles. ¡Descubre el placer de comer bien, sin complicaciones!
         </span>
       </div>
 

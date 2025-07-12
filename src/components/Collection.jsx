@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -45,7 +44,7 @@ const Collection = () => {
     <>
       <motion.div>
         <h2 className={`${styles.sectionHeadText}`}>
-          La Burguesía Salta Smash burg
+          La Burguesía Salta Smash Burger
         </h2>
       </motion.div>
 
@@ -79,36 +78,36 @@ const Collection = () => {
 
         <div className="flex flex-col w-full h-full justify-center pt-5 gap-5">
           <div className="flex justify-center w-full">
-            <Link to="https://api.whatsapp.com/send/?phone=5493874830054&text&type=phone_number&app_absent=0" className="flex items-center gap-2">
+            <a href="https://api.whatsapp.com/send/?phone=5493874830054&text&type=phone_number&app_absent=0" className="flex items-center gap-2">
               <img
                 src={whatsapp}
                 alt="whatsapp"
                 className="w-9 h-9 object-contain"
               />
               <p>+54 387 483 0054</p>
-            </Link>
+            </a>
           </div>
 
           <div className="flex justify-center w-full">
-            <Link to="https://www.facebook.com/laburguesiasalta" className="flex items-center gap-2">
+            <a href="https://www.facebook.com/laburguesiasalta" className="flex items-center gap-2">
               <img
                 src={facebook}
                 alt="facebook"
                 className="w-9 h-9 object-contain"
               />
               <p>@laburguesiasalta</p>
-            </Link>
+            </a>
           </div>
 
           <div className="flex justify-center w-full">
-            <Link to="https://www.instagram.com/laburguesiasalta" className="flex items-center gap-2">
+            <a href="https://www.instagram.com/laburguesiasalta" className="flex items-center gap-2">
               <img
                 src={instagram}
                 alt="instagram"
                 className="w-9 h-9 object-contain"
               />
               <p>@laburguesiasalta</p>
-            </Link>
+            </a>
           </div>
         </div>
       </motion.div>
