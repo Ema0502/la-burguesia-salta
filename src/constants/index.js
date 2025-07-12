@@ -6,9 +6,13 @@ import imperialBaconJam from "../assets/img/imperial-bacon-jam.jpg";
 
 export const navLinks = [
   {
+    id: "map",
+    title: "Envíos",
+  },
+  {
     id: "contact",
     title: "Contacto",
-  },
+  }
 ];
 
 const projects = [

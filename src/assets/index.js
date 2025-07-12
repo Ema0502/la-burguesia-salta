@@ -5,6 +5,7 @@ import whatsapp from "./whatsapp.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import pinmaps from "./pinmaps.svg";
+import shippingMap from "./img/shipping-map.png";
 
 
 
@@ -15,5 +16,6 @@ export {
   whatsapp,
   facebook,
   instagram,
-  pinmaps
+  pinmaps,
+  shippingMap
 };

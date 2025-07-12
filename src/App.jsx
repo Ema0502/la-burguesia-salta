@@ -5,6 +5,8 @@ import {
   Collection,
   StarsCanvas,
   Footer,
+  Map,
+  Contact
 } from "./components";
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
         <div className="relative z-0">
           <StarsCanvas />
           <Collection />
+          <Map />
+          <Contact />
           <Footer />
         </div>
       </div>

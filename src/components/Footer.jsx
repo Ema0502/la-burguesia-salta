@@ -23,4 +23,4 @@ const Footer = () => {
   );
 };
 
-export default SectionWrapper(Footer, "contact");
+export default SectionWrapper(Footer, "");
