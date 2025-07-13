@@ -18,10 +18,6 @@ module.exports = {
       screens: {
         xs: "450px",
       },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
-        "contact-pattern": "url('/src/assets/contactbg.png')",
-      },
     },
   },
   plugins: [],
