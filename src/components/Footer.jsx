@@ -11,13 +11,13 @@ const Footer = () => {
           src={logo}
           alt="Logo..."
         />
-        <span className="text-sm md:text-base text-gray-700">
+        <span className="text-sm md:text-base text-gray-500">
           Apasionados por el sabor real, llevamos cada hamburguesa al siguiente nivel con ingredientes frescos y recetas irresistibles. ¡Descubre el placer de comer bien, sin complicaciones!
         </span>
       </div>
 
       <div className="text-center">
-        <p className="text-sm text-gray-700 pt-4">Copyright ® 2025 | La burguesia Salta</p>
+        <p className="text-sm text-gray-500 pt-4">Copyright ® 2025 | La burguesia Salta</p>
       </div>
     </footer>
   );
